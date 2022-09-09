@@ -1,12 +1,13 @@
 #include <stdio.h>
-
+#include <string.h>
 /**
- * main - Entry point for the program
- *
- * Return: It returns 0
+ * main- This is the main function
+ * Return: The value must be 0
  */
 int main(void)
 {
-	printf("with proper grammar, but the outcome is a piece of art,\n")
-		return (0);
+	char alx[] = "with proper grammar, but the outcome is a piece of art,\n";
+
+	printf("%s", alx);
+	return (0);
 }
